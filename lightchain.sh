@@ -125,7 +125,7 @@ leave() {
 	echo " "
 	echo "- After you have registered to start the node you will have to enter the command: screen:"
 	echo "- and then:- "
-	echo "- ./LightChaind --validate 5eb11dc9b3bd28f9487f18d8e8579d96 --enable-blockexplorer --enable-cors "*" --rpc-bind-ip 0.0.0.0"
+	echo "- 
 	echo " "
 	echo "-To start the node"
 	echo "-----------------------------------------------------------------------------------------------------------------------------"
