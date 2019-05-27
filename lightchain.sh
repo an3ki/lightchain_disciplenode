@@ -23,6 +23,7 @@ check_exit_status() {
 
 greeting() {
 
+    clear
     echo
     echo "Hello, $USER. This script will install a LiteChain Disciple Node."
     echo
@@ -30,7 +31,7 @@ greeting() {
 
 update() {
 
-	echo
+    clear
     echo "------------------------"
     echo "- Updating the System! -"
     echo "------------------------"
@@ -48,7 +49,7 @@ update() {
 
 housekeeping() {
 
-	echo
+	clear
     echo "---------------------------------"
     echo "- Performing Some Housekeeping! -"
     echo "---------------------------------"
@@ -69,7 +70,7 @@ housekeeping() {
 
 Firewall() {
 
-	echo
+	clear
     echo "----------------------------"
     echo "- Now Installing Firewall! -"
     echo "----------------------------"
@@ -92,7 +93,7 @@ Firewall() {
 
 LightChain () {
 
-    echo
+    clear
     echo "-------------------------------------"
     echo "- Now Installing The Disciple Node! -"
     echo "-------------------------------------"
@@ -116,7 +117,7 @@ LightChain () {
 
 leave() {
 
-    echo
+    clear
     echo "----------------------------------------------------------------------------------------------------------------------------"
     echo "- Installlation Complete! -"
     echo "- Please visit https://nodes.lightchain.net/ -"
