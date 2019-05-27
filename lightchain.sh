@@ -99,7 +99,7 @@ LightChain () {
     
 
 	sudo apt-get install screen > /dev/null 2>&1;
-	echo -ne '\n' | <yourfinecommandhere> > /dev/null 2>&1;
+	
 	check_exit_status
 	wget https://github.com/lcxnetwork/LightChain/releases/download/v0.2.2/Linux-v0.2.2.zip > /dev/null 2>&1;
 	check_exit_status
@@ -129,7 +129,7 @@ leave() {
 	echo "-To start the node"
 	echo "-----------------------------------------------------------------------------------------------------------------------------"
     echo
-    exit
+   
 }
 
 greeting
