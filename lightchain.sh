@@ -182,6 +182,7 @@ leave() {
 	echo -e " "
 	echo -e " "
 	echo -e "-Please enter your vaildate string to continue ( example 5eb11dc9b3bd28f9487f18d8e8579d96 )-"
+	echo -e " "
 	echo -e " You can get the validate string from the website under the submit button for your node -"
 	echo -e " next to ( --validate ) -"
 	echo -e "-----------------------------------------------------------------------------------------------------------------------------"
@@ -208,8 +209,11 @@ startnode() {
     echo -e "${MAG}----------------------------------------------------------------------------------------------------------------------------"
     echo -e "- Installlation Complete! -"
     echo -e "- -"
-	echo -e "- To start your node please enter the command: -${NC}"
+	
+	echo -e "- Your Node IP is:${YELLOW} $NODEIP ${MAG}"
+	echo -e "- Your Port is:   ${YELLOW} 10002 ${MAG}"
 	echo -e " "
+	echo -e "- To start your node please enter the command: -${NC}"
 	echo -e "${YELLOW}screen -d -m ./startnode.sh ${NC}"
 	echo -e " "
 	echo -e "${MAG}After this your node is complete and you may exit the terminal."
@@ -217,6 +221,7 @@ startnode() {
 	echo -e "${MAG}To view your node working use the command:${YELLOW} screen -r${NC}"
 	echo -e ""
 	echo -e "${MAG}After you have finished looking at your working node"
+	echo -e " "
 	echo -e "${MAG}Don't forget to press ${YELLOW}CTRL A ${MAG}then ${YELLOW}CTRL D ${MAG}beofore you exit terminal${NC}"
 
 }
