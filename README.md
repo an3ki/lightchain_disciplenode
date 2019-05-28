@@ -7,10 +7,13 @@ chmod +x lightchain.sh
 source lightchain.sh
 
 
-Once Installed:
-
-screen
-
-./LightChaind --validate 5eb11dc9b3bd28f9487f18d8e8579d96 --enable-blockexplorer --enable-cors "*" --rpc-bind-ip 0.0.0.0
-
-
+Once Installed to start your node please enter the command:
+	
+	screen -d -m ./startnode
+	
+  After this your node is complete and you may exit the terminal."
+	To view your node working use the command:
+  screen -r
+	
+  After you have finished looking at your working node
+	Don't forget to press CTRL A then CTRL D beofore you exit terminal
