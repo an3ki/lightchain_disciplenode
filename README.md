@@ -17,4 +17,5 @@ To view your node working use the command:
   	screen -r
 	
 After you have finished looking at your working node
-Don't forget to press CTRL A then CTRL D beofore you exit terminal
+
+Don't forget to press CTRL A then CTRL D before you exit terminal
