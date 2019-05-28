@@ -9,7 +9,7 @@ To Install a new disciple node on Ubuntu 18.04 please enter in the following as 
 
 Once Installed to start your node please enter the command:
 	
-	screen -d -m ./startnode
+	screen -d -m ./startnode.sh
 	
 After this your node is complete and you may exit the terminal."
 To view your node working use the command:
